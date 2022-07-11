@@ -1,0 +1,32 @@
+{
+  "name": "sudoku-solver",
+  "version": "1.0.0",
+  "description": "API to solve sudoku-puzzles",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "tsc -p ,",
+    "start": "node src/index.ts",
+    "dev": "nodemon -L"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OhFlohre/sudoku-solver.git"
+  },
+  "author": "OhFlohre",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/OhFlohre/sudoku-solver/issues"
+  },
+  "homepage": "https://github.com/OhFlohre/sudoku-solver#readme",
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/node": "^18.0.3",
+    "nodemon": "^2.0.19",
+    "ts-node": "^10.8.2",
+    "tsconfig-paths": "^4.0.0",
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
